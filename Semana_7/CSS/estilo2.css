@@ -1,0 +1,25 @@
+nav{
+	background: url(../imagens/Sprite_g.jpg);
+}
+ul{
+
+	list-style-type: none;
+	background: url(../imagens/Sprite_g.jpg);a
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-size: 2em;
+}
+li{
+	margin: 10px 15px;
+
+}
+nav ul li{
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	background: white;
+}

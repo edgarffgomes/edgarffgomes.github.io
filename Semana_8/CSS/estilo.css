@@ -1,0 +1,45 @@
+header{
+	margin: 0 auto;
+	background: gray;
+	padding: 1px 0px;
+}
+h1{
+	padding-left: 10px;
+	color: white;
+	font-family: serif;
+}
+ul{
+	list-style: none;
+	background: #DCDCDC;
+	float: left;
+	padding:  5px;
+	margin: 10px;
+	margin-bottom: 300px ;
+}
+li{
+	text-decoration: none;
+	border-top: 1px solid white;
+	font-size: 2em;
+	margin: 5px 0px;
+	padding: 5px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: gray;
+}
+
+#principal{
+	margin: 20px;
+	clear: right;
+}
+footer{
+	clear: both;
+	background: gray;
+	padding: 12px;
+	font-weight: bold;
+	color: white;
+}
