@@ -1,0 +1,175 @@
+/* geral */
+body{
+	font-family:  Tahoma, sans-serif;
+}
+
+/* header */
+#navegacao{
+	float: right;
+	margin-right: 40px;
+	margin-top: 10px;
+}
+header img{
+	margin-left: 40px;
+}
+#navegacao ul{
+	list-style: none;
+}
+.navegacao-links{
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-right: 1px solid black;
+	text-decoration: underline;
+}
+#navegacao p{
+	padding-left: 10px;
+	display: inline;
+}
+#navegacao p span{
+	background: black;
+	color: yellow;
+	padding: 2px 8px;
+}
+.busca{
+	padding-top: 10px;
+}
+.find{
+	margin-left: 60px;
+}
+.search{
+	display: inline;
+	margin-left: 68px;
+}
+button{
+	box-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+.secoes-header{
+	display: inline;
+	float: right;
+	font-weight: 600;
+	margin-right: 40px;
+}
+.secoes-header a{
+	color: black;
+	text-decoration: none;
+	padding: 0px 50px;
+	border: 1px solid black;
+}
+
+.secoes-header a:hover{
+	color: black;
+}
+
+/* sections */
+#secao-esquerda{
+	float: left;
+	margin-top: 40px;
+	width: 380px;
+	height: 0px;
+}
+
+#secao-esquerda img{
+	border: 1px solid black;
+	margin-left: 40px;
+}
+.secoes-header a, .categorias a{
+	background: plum;
+}
+.categorias ul{
+	list-style: none;
+	margin-top: 30px;
+}
+.categorias li{
+
+	margin-bottom: 15px;
+}
+.categorias li a{
+	color: black;
+	font-weight: 600;
+	border: 1px solid black;
+}
+.categorias li a:hover{
+	color: black;
+}
+.popular ul{
+	list-style: none;
+	width:  62%;
+	height: 100px;
+	padding: 3px;
+	margin-left: 40px;
+	margin-bottom: 40px;
+	background: #808080;
+	font-size: 0.8em;
+	border: 1px solid black;
+}
+
+.popular li a{
+	color:  black;
+	font-weight: 600;
+
+}
+.popular li a:hover{
+	color: #8B4513;
+}
+#secao-center{
+	float: left;
+	margin-left: 0px;
+	margin-top: 20px;
+	width: 680px;
+	height: 0px;
+}
+.box{
+	background: #808080;
+	padding: 10px 15px;
+	
+	text-align: justify;
+
+	height: 300px;
+}
+.link-mais{
+	text-decoration: none;
+	color: black;
+	text-decoration: underline;
+	float: right; 
+	font-size: 0.8em
+}
+.foto-artigo{
+	font-size: 0.9em;
+	float: left;
+}
+.artigo-data{
+	margin-right: 5px;
+}
+.destaque{
+	font-weight: bold;
+	margin-left: 135px;
+	text-decoration: underline;
+}
+.box2{
+	background: #808080;
+	padding: 5px 15px;
+
+	margin-top: 40px;
+	text-align: justify;
+	margin-bottom: 40px;
+	height: 140px;
+}
+#secao-direita{
+	float: left;
+	margin-top: 20px;
+	margin-left: 40px;
+	width: 380px;
+}
+.spotlight-text{
+
+	padding: auto;
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+}
+.rodape{
+	clear: both;
+	border-top: 1px solid black;
+	padding: 15px;
+}
