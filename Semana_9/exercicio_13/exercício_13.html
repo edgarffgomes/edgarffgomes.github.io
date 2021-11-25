@@ -1,0 +1,28 @@
+<<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Hipermídia</title>
+	</head>
+	<body>
+
+		<script>
+			let palavra = prompt('Digite uma palavra para ser verificada')
+			palavra = palavra.toString()
+			let ver = 0
+			let aux = palavra.length -1
+			for(let cont =0; cont<palavra.length; cont++){
+				if(palavra.charAt(cont).toLowerCase() == palavra.charAt(aux).toLowerCase()){
+					ver++;
+				}
+				aux--;
+			}
+			if(ver == palavra.length){
+				alert('A palavra é um palíndromo')
+			}
+			else{
+				alert('A palavra não é um palíndromo')
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,23 @@
+<<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Hipermídia</title>
+	</head>
+	<body>
+
+		<script>
+			let num = prompt('Digite um numero para ter seu fatorial calculado')
+			num = parseInt(num)
+			let fat = 1
+			for(let i=num; i>1; i--){
+				fat = fat*i
+				if(num == 0){
+					fat = 1
+					continue
+				}
+			}
+			alert(`O fatorial de ${num} é: ${fat}`)
+		</script>
+	</body>
+</html>
